@@ -10,6 +10,7 @@ output:
 
 ## Motivação 1 - Vício em Planilhas
 
+<!-- Eu deixaria essa frase para a fala. Já começaria com a seguinte, que é muito mais impactante --> 
 - O uso da palavra vício neste slide não é uma metáfora.
 
 - O vício é o uso persistente de uma substância que causa prejuízo ao viciado e aos que com ele convivem.
