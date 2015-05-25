@@ -1,0 +1,87 @@
+---
+title: "reest"
+author: "Diretoria Central de Gestão Fiscal"
+date: "Maio de 2015"
+output:
+  ioslides_presentation:
+    logo: images/r-logo.png
+  beamer_presentation: default
+---
+
+## Motivação 1 - Vício em Planilhas
+
+- O uso da palavra vício neste slide não é uma metáfora.
+
+- O vício é o uso persistente de uma substância que causa prejuízo ao viciado e aos que com ele convivem.
+
+- Não é a substância que causa o prejuízo - seu uso limitado pode ser beneficente. São as circunstâncias e a extensão do uso que determinam se o comportamento caracteriza vício ou não.
+
+- Planilhas são uma invenção fenômenal - caso seu uso seja limitado as situações para as quais ela foi concebida.
+
+Fonte: [Spreadsheet Addiction](http://www.burns-stat.com/documents/tutorials/spreadsheet-addiction/)
+
+## Motivação 2 - Automatização
+
+![](images/automation.png)
+
+
+## Motivação 3 - Reproducibility
+
+- Replication *versus* Reproducibility na pesquisa científica
+
+- Replication - Mesmas descobertas científicas utilizando investigadores, métodos, dados, equipamentos e protocolos independentes
+
+- Reproducibility (Primo pobre) - Mesmas descobertas científicas utilizando investigadores independentes porém os mesmos métodos, dados, equipamentos e protocolos 
+
+- A replication algumas vezes pode ser impossivel de ser obtida, a reproducibility é um padrão mínimo que podemos garantir
+
+Fonte: [Reproducible research and Biostatistics](http://biostatistics.oxfordjournals.org/content/10/3/405.full)
+
+## Motivação 4 - Computação e Software
+
+- Software is eating the word!!!
+
+- Regra de Dedo - Se você está tentando resolver um problema, e existem diversas empresas bilionárias cujo modelo de negócio inteiro depende de resolver o mesmo problema, e existem cursos inteiros na sua universidade dedicados a resolver esse problema, talvez seja uma boa idéia descobrir o que os especialistas fazem e ver se você não pode aprender uma coisa ou outra com eles.
+
+Fonte: [Code and Data for the Social Sciences: A Practitioner´s Guide](http://faculty.chicagobooth.edu/matthew.gentzkow/research/CodeAndData.pdf)
+
+## E agora José?
+
+- Assumindo que a gente concorda com as motivações apresentadas, qual o caminho a partir daqui?
+
+- Utilizar planilhas no mini-mundo para que elas foram concebidas, automatizar as tarefas que podem ser automatizadas, utilizar práticas e ferramentas que tornem nossas análises reproduziveis e aprender com a indústria do software como solucionar nossos problemas 
+
+## Alternativas
+
+- **Vício em Planilhas**: R, QlikView, Banco de Dados
+
+- **Automatização** e **Reproducibility**: Scripting, Programação Literária
+
+- **O Mundo do Software**: Controle de Versão; Teste Unitário, Programação em Pares
+
+## Por que R?
+
+<img src="images/number-scholarly-articles-by-software-2014.png" width="500" height="400" />
+
+Fonte: [The Popularity of Data Analysis Software](http://r4stats.com/articles/popularity/)
+
+## Por que R?
+
+<img src="images/teach-yourself-programming-ten-years-peter-norvig.png" />
+
+Fonte: [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
+
+## Por que R?
+
+<img src="images/stack-oveflow-question-samira.png" width="800"/>
+
+Fonte: [StackOverflow](http://stackoverflow.com/questions/28800583/extract-ets-method-used-for-automatic-forecasts-of-hierarchical-time-series-with)
+
+## Seeing Is Believing
+
+<img src="images/seeing-is-believing.png" />
+
+
+## Próximos Passos
+
+- Abordagem ágil no gerenciamento de projetos de software

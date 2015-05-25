@@ -1,0 +1,26 @@
+---
+title: "Reestimativa Pessoal"
+output: pdf_document
+---
+```{r, echo=FALSE, message=FALSE}
+library("forecast")
+dados <- read.csv2("./data/pessoal-2010-2014.csv")
+
+uo <- ts(data = dados[dados$uo == 1251, "pessoal"], 
+           start = c(2010, 1),
+           end = c(2014, 12),
+           frequency = 12)
+
+modelo <- auto.arima(uo)
+
+previsao <- forecast.Arima(modelo, h = 12)
+
+```
+
+A despesa de pessoal executada no último mês foi de `r window(uo, start = end(uo), end = end(uo))`. As previsões para os próximos meses está demonstrada abaixo
+
+```{r}
+plot(previsao)
+```
+
+
