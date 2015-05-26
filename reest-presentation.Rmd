@@ -7,11 +7,61 @@ output:
     logo: images/r-logo.png
   beamer_presentation: default
 ---
+## Sumário
+
+- Objetivos
+
+- Motivação
+
+- Alternativas
+
+- R
+
+- Exemplos
+
+- Próximos Passos
+
+## Objetivos
+
+- Coleta
+
+`%>%` Limpeza
+
+- Análise
+    - Transformação/Manipulação
+    - Visualização
+    - Modelagem
+
+`%>%` Insight
+
+- Comunicação
+
+Fonte: [The Grammar and Graphics of Data Science](https://github.com/rstudio/webinars/blob/master/01-Grammar-and-Graphics-of-Data-Science/1-dplyr-tidyr.pdf)
+
+<div class="notes">
+- Passamos a maior parte do tempo na etapa de transformação/manipulação, antes de atacar as outras etapas, precisamos maximizar essa
+
+ Exemplos
+- Coleta: consulta armazém; consulta SQL; planilhas SEF
+- Limpeza: espaços entre nomes UO´s; alocação além crédito mês correto
+- Transformação/Manipulação: tabela dinâmica
+- Visualização: escolha valor base 
+- Modelagem: eventos e índices da despesa de pessoal
+- Análise/Insight: produção de entendimento sobre o mundo; rigidez orçamentária
+- Comunicação: apresentação JPOF
+
+ Objetivos
+- Gerar informação confiável, de forma eficiente e estruturada
+    - Consistência dos dados e dos cálculos verificada por padrão (testes automáticos)
+    - Resultados reprodutíveis com mínima dependência humana
+    - Procedimentos de cálculo registrados, com controle de versão
+    - Automatização: elimina oportunidade de erros.
+- Criar ambiente de análise de dados
+    - Permitir que interessados tirem suas próprias conclusões dos dados, de forma dinâmica e interativa
+
+</div>
 
 ## Motivação 1 - Vício em Planilhas
-
-<!-- Eu deixaria essa frase para a fala. Já começaria com a seguinte, que é muito mais impactante --> 
-- O uso da palavra vício neste slide não é uma metáfora.
 
 - O vício é o uso persistente de uma substância que causa prejuízo ao viciado e aos que com ele convivem.
 
@@ -21,9 +71,14 @@ output:
 
 Fonte: [Spreadsheet Addiction](http://www.burns-stat.com/documents/tutorials/spreadsheet-addiction/)
 
+<div class="notes">
+- O uso da palavra vício neste slide não é uma metáfora.
+- Usamos excel para armazenamento de banco de dados, para gerenciamento de banco de dados, para exploração de dados, para análise de dados, para documentação de dados ,para apresentação de dados, para compartilhamento de dados, etc 
+</div>
+
 ## Motivação 2 - Automatização
 
-![](images/automation.png)
+![](images/automation.PNG)
 
 
 ## Motivação 3 - Reproducibility
@@ -68,13 +123,13 @@ Fonte: [The Popularity of Data Analysis Software](http://r4stats.com/articles/po
 
 ## Por que R?
 
-<img src="images/teach-yourself-programming-ten-years-peter-norvig.png" />
+<img src="images/teach-yourself-programming-ten-years-peter-norvig.PNG" />
 
 Fonte: [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
 
 ## Por que R?
 
-<img src="images/stack-oveflow-question-samira.png" width="800"/>
+<img src="images/stack-oveflow-question-samira.PNG" width="800"/>
 
 Fonte: [StackOverflow](http://stackoverflow.com/questions/28800583/extract-ets-method-used-for-automatic-forecasts-of-hierarchical-time-series-with)
 
@@ -86,3 +141,11 @@ Fonte: [StackOverflow](http://stackoverflow.com/questions/28800583/extract-ets-m
 ## Próximos Passos
 
 - Abordagem ágil no gerenciamento de projetos de software
+
+- Desenvolvimento de um pacote no R de forma incremental `relatorios`
+
+<div class="notes">
+- Abordagem que valoriza software funcionando no lugar de documentação extensiva e resposta a mudança no lugar de seguir um plano
+
+- Iniciar pelo pacote reestRelatorios tendo em vista que sua complexidade de negócio é relativamente simples, deixando tempo suficiente para a equipe do projeto maturar o conhecimento em relação ao ambiente de desenvolvimento
+</div>
