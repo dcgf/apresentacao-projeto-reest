@@ -23,18 +23,18 @@ output:
 
 ## Objetivos
 
-- Coleta
+- **Coleta**
 
-`%>%` Limpeza
+- Limpeza
 
-- Análise
-    - Transformação/Manipulação
-    - Visualização
-    - Modelagem
+- **Análise**
+    - *Transformação/Manipulação*
+    - *Visualização*
+    - *Modelagem*
 
-`%>%` Insight
+- Insight
 
-- Comunicação
+- **Comunicação**
 
 Fonte: [The Grammar and Graphics of Data Science](https://github.com/rstudio/webinars/blob/master/01-Grammar-and-Graphics-of-Data-Science/1-dplyr-tidyr.pdf)
 
@@ -61,6 +61,7 @@ Fonte: [The Grammar and Graphics of Data Science](https://github.com/rstudio/web
     - Automatização: elimina oportunidade de erros.
 - Criar ambiente de análise de dados
     - Permitir que interessados tirem suas próprias conclusões dos dados, de forma dinâmica e interativa
+- Diminuir o atrito entre as etapas do processo de análise de dados (ex: (1) agendamento de consulta no armazem entre coleta e análise e (2) qlikview entre análise e comunicação )
 
 </div>
 
@@ -169,7 +170,7 @@ Fonte: [StackOverflow](http://stackoverflow.com/questions/28800583/extract-ets-m
 
 - Desenvolvimento de um pacote no R (`relatorios`) de forma incremental
 
-- Estrura base das funções
+- Estrutura base das funções
 
 ```{r, eval=FALSE}
 relatorio(base_rec, base_desp, 
@@ -181,7 +182,6 @@ relatorio(base_rec, base_desp,
 
 
 <div class="notes">
-
 - Abordagem que valoriza software funcionando no lugar de documentação extensiva e resposta a mudança no lugar de seguir um plano
 
 - Iniciar pelo pacote reestRelatorios tendo em vista que sua complexidade de negócio é relativamente simples, deixando tempo suficiente para a equipe do projeto maturar o conhecimento em relação ao ambiente de desenvolvimento
