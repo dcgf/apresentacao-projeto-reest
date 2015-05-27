@@ -10,13 +10,3 @@ plot(uo)
 decomposicao <- decompose(uo, type = "multiplicative")
 
 plot(decomposicao)
-
-# 
-# dados[dados$ano == 2013 & dados$mes == 11, "mes"] <- 99
-# 
-# dados[dados$ano == 2013 & dados$mes == 12, "mes"] <- 11
-# 
-# dados[dados$ano == 2013 & dados$mes == 99, "mes"] <- 12
-# 
-# dados <- dados[order(dados$ano, dados$mes), ]
-
