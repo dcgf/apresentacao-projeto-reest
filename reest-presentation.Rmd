@@ -39,6 +39,9 @@ output:
 Fonte: [The Grammar and Graphics of Data Science](https://github.com/rstudio/webinars/blob/master/01-Grammar-and-Graphics-of-Data-Science/1-dplyr-tidyr.pdf)
 
 <div class="notes">
+
+- As etapas acima são apenas uma representação estática e não conseguem capturar a natureza dinâmica do processo e o itenso feedback que existe entre seus componentes
+
 - Passamos a maior parte do tempo na etapa de transformação/manipulação, antes de atacar as outras etapas, precisamos maximizar essa
 
  Exemplos
@@ -72,7 +75,9 @@ Fonte: [The Grammar and Graphics of Data Science](https://github.com/rstudio/web
 Fonte: [Spreadsheet Addiction](http://www.burns-stat.com/documents/tutorials/spreadsheet-addiction/)
 
 <div class="notes">
+
 - O uso da palavra vício neste slide não é uma metáfora.
+
 - Usamos excel para armazenamento de banco de dados, para gerenciamento de banco de dados, para exploração de dados, para análise de dados, para documentação de dados ,para apresentação de dados, para compartilhamento de dados, etc 
 </div>
 
@@ -80,6 +85,10 @@ Fonte: [Spreadsheet Addiction](http://www.burns-stat.com/documents/tutorials/spr
 
 ![](images/automation.PNG)
 
+<div class="notes">
+- eficiencia na execução do processo
+- diminuição do número de erros decorrentes de intervenção manual
+</div>
 
 ## Motivação 3 - Reproducibility
 
@@ -93,6 +102,13 @@ Fonte: [Spreadsheet Addiction](http://www.burns-stat.com/documents/tutorials/spr
 
 Fonte: [Reproducible research and Biostatistics](http://biostatistics.oxfordjournals.org/content/10/3/405.full)
 
+<div class="notes">
+
+- replication na reestimativa - SEF e SEPLAG chegam no mesmo número para o déficit usando processos e metodologias diferentes
+
+- reproducibility - SEF consegue reproduzir o número do déficit da SEPLAG usando o mesmo processo e metodologia 
+</div>
+
 ## Motivação 4 - Computação e Software
 
 - Software is eating the word!!!
@@ -100,6 +116,13 @@ Fonte: [Reproducible research and Biostatistics](http://biostatistics.oxfordjour
 - Regra de Dedo - Se você está tentando resolver um problema, e existem diversas empresas bilionárias cujo modelo de negócio inteiro depende de resolver o mesmo problema, e existem cursos inteiros na sua universidade dedicados a resolver esse problema, talvez seja uma boa idéia descobrir o que os especialistas fazem e ver se você não pode aprender uma coisa ou outra com eles.
 
 Fonte: [Code and Data for the Social Sciences: A Practitioner´s Guide](http://faculty.chicagobooth.edu/matthew.gentzkow/research/CodeAndData.pdf)
+
+<div class="notes">
+
+- excel é uma habilidade necessária (no sentido lógico, ou seja, a ausência garante que vc não consegue trabalhar em alto nível mas a sua presença não garante que vc conseguirá) para trabalhadores de escritório. Programação/Computação está virando uma habilidade necessária para trabalhadores que fazem análise de dados
+
+- software nós proporciona a habilidade de criar abstrações para diminuir a complexidade, no entanto ela ainda está presente e precisamos aprender a lidar com elas
+</div>
 
 ## E agora José?
 
@@ -109,11 +132,13 @@ Fonte: [Code and Data for the Social Sciences: A Practitioner´s Guide](http://f
 
 ## Alternativas
 
-- **Vício em Planilhas**: R, QlikView, Banco de Dados
+- **Vício em Planilhas**: R; QlikView; Access
 
-- **Automatização** e **Reproducibility**: Scripting, Programação Literária
+- **Automatização** e **Reproducibility**: Scripting; Programação Literária
 
-- **O Mundo do Software**: Controle de Versão; Teste Unitário, Programação em Pares
+- **O Mundo do Software**: Controle de Versão; Teste Unitário; Programação em Pares; Padrões de Projeto
+
+##
 
 ## Por que R?
 
@@ -142,9 +167,21 @@ Fonte: [StackOverflow](http://stackoverflow.com/questions/28800583/extract-ets-m
 
 - Abordagem ágil no gerenciamento de projetos de software
 
-- Desenvolvimento de um pacote no R de forma incremental `relatorios`
+- Desenvolvimento de um pacote no R (`relatorios`) de forma incremental
+
+- Estrura base das funções
+
+```{r, eval=FALSE}
+relatorio(base_rec, base_desp, 
+       formato=c("base","relatorio","valor"), 
+       export=c("r","excel", "pdf"), ...) {
+ ...   
+}
+```
+
 
 <div class="notes">
+
 - Abordagem que valoriza software funcionando no lugar de documentação extensiva e resposta a mudança no lugar de seguir um plano
 
 - Iniciar pelo pacote reestRelatorios tendo em vista que sua complexidade de negócio é relativamente simples, deixando tempo suficiente para a equipe do projeto maturar o conhecimento em relação ao ambiente de desenvolvimento

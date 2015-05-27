@@ -203,10 +203,12 @@
 </article></slide><slide class=''><hgroup><h2>Alternativas</h2></hgroup><article  id="alternativas">
 
 <ul>
-<li><p><strong>Vício em Planilhas</strong>: R, QlikView, Banco de Dados</p></li>
-<li><p><strong>Automatização</strong> e <strong>Reproducibility</strong>: Scripting, Programação Literária</p></li>
-<li><p><strong>O Mundo do Software</strong>: Controle de Versão; Teste Unitário, Programação em Pares</p></li>
+<li><p><strong>Vício em Planilhas</strong>: R; QlikView; Access</p></li>
+<li><p><strong>Automatização</strong> e <strong>Reproducibility</strong>: Scripting; Programação Literária</p></li>
+<li><p><strong>O Mundo do Software</strong>: Controle de Versão; Teste Unitário; Programação em Pares; Padrões de Projeto</p></li>
 </ul>
+
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section">
 
 </article></slide><slide class=''><hgroup><h2>Por que R?</h2></hgroup><article  id="por-que-r">
 
@@ -234,8 +236,15 @@
 
 <ul>
 <li><p>Abordagem ágil no gerenciamento de projetos de software</p></li>
-<li><p>Desenvolvimento de um pacote no R de forma incremental <code>relatorios</code></p></li>
+<li><p>Desenvolvimento de um pacote no R (<code>relatorios</code>) de forma incremental</p></li>
+<li><p>Estrura base das funções</p></li>
 </ul>
+
+<pre class = 'prettyprint lang-r'>report(base_rec, base_desp, 
+       formato=c(&quot;base&quot;,&quot;relatorio&quot;,&quot;valor&quot;), 
+       export=c(&quot;r&quot;,&quot;excel&quot;, &quot;pdf&quot;), ...) {
+ ...   
+}</pre>
 
 <aside class='note'><section><ul>
 <li><p>Abordagem que valoriza software funcionando no lugar de documentação extensiva e resposta a mudança no lugar de seguir um plano</p></li>
