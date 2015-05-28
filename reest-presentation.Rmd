@@ -91,23 +91,23 @@ Fonte: [Spreadsheet Addiction](http://www.burns-stat.com/documents/tutorials/spr
 - diminuição do número de erros decorrentes de intervenção manual
 </div>
 
-## Motivação 3 - Reproducibility
+## Motivação 3 - Reprodutibilidade
 
-- Replication *versus* Reproducibility na pesquisa científica
+- Replicabilidade (Replicável) *versus* Reprodutibilidade (Reprodutível) na pesquisa científica
 
-- Replication - Mesmas descobertas científicas utilizando investigadores, métodos, dados, equipamentos e protocolos independentes
+- Replicabilidade - Mesmas descobertas científicas utilizando investigadores, métodos, dados, equipamentos e protocolos independentes
 
-- Reproducibility (Primo pobre) - Mesmas descobertas científicas utilizando investigadores independentes porém os mesmos métodos, dados, equipamentos e protocolos 
+- Reprodutibilidade - Mesmas descobertas científicas utilizando investigadores independentes porém os mesmos métodos, dados, equipamentos e protocolos 
 
-- A replication algumas vezes pode ser impossivel de ser obtida, a reproducibility é um padrão mínimo que podemos garantir
+- A replicabilidade algumas vezes pode ser impossivel de ser obtida, a reprodutibilidade é um padrão mínimo que podemos garantir
 
 Fonte: [Reproducible research and Biostatistics](http://biostatistics.oxfordjournals.org/content/10/3/405.full)
 
 <div class="notes">
 
-- replication na reestimativa - SEF e SEPLAG chegam no mesmo número para o déficit usando processos e metodologias diferentes
+- Replicabilidade na reestimativa - SEF e SEPLAG chegam no mesmo número para o déficit usando processos e metodologias diferentes
 
-- reproducibility - SEF consegue reproduzir o número do déficit da SEPLAG usando o mesmo processo e metodologia 
+- Reprodutibilidade - SEF consegue reproduzir o número do déficit da SEPLAG usando o mesmo processo e metodologia 
 </div>
 
 ## Motivação 4 - Computação e Software
