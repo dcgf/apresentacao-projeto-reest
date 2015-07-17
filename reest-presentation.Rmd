@@ -65,6 +65,10 @@ Fonte: [The Grammar and Graphics of Data Science](https://github.com/rstudio/web
 
 </div>
 
+## Adicionando complexidade ao processo de análise de dados
+
+![](images/data-analytics.PNG)
+
 ## Motivação 1 - Vício em Planilhas
 
 - O vício é o uso persistente de uma substância que causa prejuízo ao viciado e aos que com ele convivem.
